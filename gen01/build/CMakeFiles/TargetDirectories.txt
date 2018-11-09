@@ -1,0 +1,3 @@
+/home/tomray/Desktop/AGH/MIO/evolution/gen01/build/CMakeFiles/rebuild_cache.dir
+/home/tomray/Desktop/AGH/MIO/evolution/gen01/build/CMakeFiles/gen01.dir
+/home/tomray/Desktop/AGH/MIO/evolution/gen01/build/CMakeFiles/edit_cache.dir

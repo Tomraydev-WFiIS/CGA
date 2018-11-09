@@ -1,0 +1,17 @@
+set term x11 0
+set title 'Best Fitness'
+set ylabel 'fitness'
+set xlabel 'epoch'
+plot "fit_best.csv"
+
+set term x11 1
+set title 'Average Fitness'
+set ylabel 'fitness'
+plot "avg_fit.csv"
+
+set term x11 2
+set title 'Standard deviation of fitness'
+set ylabel 'Standard deviation'
+plot "sd.csv"
+
+pause -1 "Hit any key to continue\n"

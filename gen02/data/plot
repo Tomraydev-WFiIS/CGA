@@ -1,0 +1,26 @@
+unset key
+
+set term x11 0
+set title 'Average Best Fitness over 100 Iterations'
+set ylabel 'fitness'
+set xlabel 'epoch'
+plot "global_fit_best.csv"
+
+set term x11 1
+set title 'Average Fitness over 100 Iterations'
+set ylabel 'fitness'
+plot "global_avg_fit.csv"
+
+set term x11 2
+set title 'Standard Deviation of best fitness over 100 Iterations'
+set ylabel 'fitness'
+plot "global_sd_fit_best.csv"
+
+set term x11 3
+set title 'Average Best Fitness with SD over 100 Iterations'
+set ylabel 'fitness'
+set datafile separator ","
+
+plot 'all_data.csv' using 1:2:3 with errorbars
+
+pause -1 "Hit any key to continue\n"
